@@ -50,3 +50,5 @@ python -m app.main
 
 Requires `GROQ_API_KEY` in `.env`. Seeds fresh synthetic data each run,
 picks a sample patient to act as, and starts a terminal chat loop.
+
+some new updates are under way
