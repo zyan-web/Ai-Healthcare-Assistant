@@ -1,0 +1,24 @@
+# --- Stage A: standalone agent (no FastAPI/DB/RBAC yet) ---
+pydantic>=2.6
+email-validator>=2.1
+python-dotenv>=1.0
+Faker>=24.0
+
+# LLM / agent (wired in from step 5 of the dev order onward)
+langchain>=0.2
+langchain-groq>=0.1.9
+langgraph>=0.2
+
+# testing
+pytest>=8.0
+pytest-mock>=3.14
+
+# --- Stage B additions (added later, kept here for reference) ---
+# fastapi
+# uvicorn[standard]
+# sqlalchemy
+# psycopg2-binary
+# alembic
+# pyjwt
+# redis
+# pgvector
